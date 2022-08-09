@@ -1,11 +1,5 @@
 ---
-title: "bayesf22"
+title: "Independent readings on Bayesian Statistics"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+[@McElreath:2020] and [@JohnsonOttDogucu:2022]

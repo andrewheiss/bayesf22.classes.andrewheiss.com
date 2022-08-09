@@ -7,6 +7,9 @@ execute:
   # Re-render only when source changes
   freeze: auto
 
+bibliography: files/bib/references.bib
+csl: files/bib/chicago-author-date.csl
+
 website:
   title: "Bayesian statistics"
   navbar:
