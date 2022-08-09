@@ -1,0 +1,23 @@
+project:
+  type: website
+  resources:
+    - "files/"
+
+execute:
+  # Re-render only when source changes
+  freeze: auto
+
+website:
+  title: "Bayesian statistics"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme:
+      - simplex
+      - html/custom.scss
+    toc: true
+    highlight-style: monokai
