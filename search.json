@@ -2,8 +2,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Independent readings on Bayesian Statistics",
+    "title": "Independent readings on Bayesian statistics",
     "section": "",
-    "text": "References\n\nJohnson, Alicia A., Miles Q. Ott, and Mine Dogucu. 2022. Bayes Rules! An Introduction to Applied Bayesian Modeling. Boca Raton, Florida: Chapman and Hall / CRC. https://www.bayesrulesbook.com/.\n\n\nMcElreath, Richard. 2020. Statistical Rethinking: A Bayesian Course with Examples in R and Stan. 2nd ed. Boca Raton, Florida: Chapman and Hall / CRC. https://xcelab.net/rm/statistical-rethinking/."
+    "text": "(McElreath 2020) and (Johnson, Ott, and Dogucu 2022)\n\nhttps://xcelab.net/rm/statistical-rethinking/\nhttps://github.com/rmcelreath/rethinking\nhttps://bookdown.org/content/4857/\nhttps://vincentarelbundock.github.io/rethinking2/"
+  },
+  {
+    "objectID": "index.html#other-things",
+    "href": "index.html#other-things",
+    "title": "Independent readings on Bayesian statistics",
+    "section": "Other things",
+    "text": "Other things\n\nKrushcke - https://sites.google.com/site/doingbayesiandataanalysis/\nhttps://bookdown.org/content/3686/"
   }
 ]
