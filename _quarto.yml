@@ -12,10 +12,19 @@ csl: files/bib/chicago-author-date.csl
 
 website:
   title: "Bayesian statistics"
+
+  repo-url: https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com
+  repo-actions: [edit, issue]
+
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - schedule.qmd
+    right:
+      - icon: github
+        href: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
+        aria-label: GitHub
 
 format:
   html:

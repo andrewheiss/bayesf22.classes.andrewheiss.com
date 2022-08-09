@@ -1,5 +1,18 @@
 ---
-title: "Independent readings on Bayesian Statistics"
+title: "Independent readings on Bayesian statistics"
 ---
 
+## Main readings
+
 [@McElreath:2020] and [@JohnsonOttDogucu:2022]
+
+- https://xcelab.net/rm/statistical-rethinking/
+- https://github.com/rmcelreath/rethinking
+- https://bookdown.org/content/4857/
+- https://vincentarelbundock.github.io/rethinking2/
+
+
+## Other things
+
+- Krushcke - https://sites.google.com/site/doingbayesiandataanalysis/
+- https://bookdown.org/content/3686/
