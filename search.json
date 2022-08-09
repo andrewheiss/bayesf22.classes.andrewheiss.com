@@ -2,8 +2,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "bayesf22",
+    "title": "Independent readings on Bayesian Statistics",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "References\n\nJohnson, Alicia A., Miles Q. Ott, and Mine Dogucu. 2022. Bayes Rules! An Introduction to Applied Bayesian Modeling. Boca Raton, Florida: Chapman and Hall / CRC. https://www.bayesrulesbook.com/.\n\n\nMcElreath, Richard. 2020. Statistical Rethinking: A Bayesian Course with Examples in R and Stan. 2nd ed. Boca Raton, Florida: Chapman and Hall / CRC. https://xcelab.net/rm/statistical-rethinking/."
   }
 ]
