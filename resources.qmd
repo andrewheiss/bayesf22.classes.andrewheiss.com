@@ -1,0 +1,61 @@
+---
+title: "Resources"
+toc: true
+#csl: files/bib/chicago-fullnote-bibliography.csl
+#link-citations: false
+---
+
+<p><a href="/files/references.bib" class="btn btn-success" role="button">{{< fa download >}} .bib file of all references</a></p>
+
+## Books we'll read
+
+### Statistical Rethinking
+
+> Richard McElreath, *Statistical Rethinking: A Bayesian Course with Examples in R and Stan* [@McElreath:2020]
+
+Official links:
+
+- {{< fa book >}} [Book page](https://xcelab.net/rm/statistical-rethinking/)
+- {{< fa brands r-project >}} [R package](https://github.com/rmcelreath/rethinking)
+- {{< fa brands youtube >}} [2022 lecture videos](https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN)
+
+Translations:
+
+- {{< fa laptop-code >}} A. Solomon Kurz, [*Statistical Rethinking with brms, ggplot2, and the tidyverse: Second edition*](https://bookdown.org/content/4857/) [@Kurz:2021]
+- {{< fa laptop-code >}} Vincent Arel-Bundock, [*Statistical Rethinking 2 with Stan and R*](https://vincentarelbundock.github.io/rethinking2/), [@Arel-Bundock:2020]
+
+
+### Bayes Rules
+
+> Alicia A. Johnson,, Miles Q. Ott, and Mine Dogucu. *Bayes Rules! An Introduction to Applied Bayesian Modeling* [@JohnsonOttDogucu:2022]
+
+Official links:
+
+- {{< fa book >}} [Book page](https://www.bayesrulesbook.com/) (and the entire book itself)
+- {{< fa house >}} [Project page](https://bayes-rules.github.io/)
+- {{< fa person-chalkboard >}} [Teaching resources](https://bayes-rules.github.io/posts/resources/)
+- {{< fa brands r-project >}} [R package](https://github.com/bayes-rules/bayesrules) and [package documentation](https://bayes-rules.github.io/bayesrules/docs/)
+- {{< fa brands youtube >}} Alicia Johnson, ["Bayes Rules! An Introduction to Bayesian Modeling with R with Alicia Johnson"](https://www.youtube.com/watch?v=MgB1ihuEDN4), presentation for R-Ladies Philly on October 18, 2021
+
+
+## Articles we'll read
+
+- {{< fa file-lines >}} Kruschke, John K., and Torrin M. Liddell. “The Bayesian New Statistics: Hypothesis Testing, Estimation, Meta-Analysis, and Power Analysis from a Bayesian Perspective" [@KruschkeLiddell:2018]
+- {{< fa file-lines >}} Kruschke, John K. “Bayesian Estimation Supersedes the *t* Test.” [@Kruschke:2013]
+- More to come!
+
+
+## Other books
+
+We don't have time to cover these this semester, but these are all really great and useful resources!
+
+- {{< fa book >}} John K. Kruschke, *Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan* [@Kruschke:2015]
+  - {{< fa house >}} [Website](https://sites.google.com/site/doingbayesiandataanalysis/)
+  - {{< fa laptop-code >}} A. Solomon Kurz, [*Doing Bayesian Data Analysis in brms and the tidyverse*](https://bookdown.org/content/3686/), translation to brms [@Kurz:2022]
+
+- {{< fa book >}} Ben Lambert, *A Student’s Guide to Bayesian Statistics* [@Lambert:2018]
+
+- {{< fa book >}} Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin, *Bayesian Data Analysis* [@GelmanCarlinStern:2013]
+
+- {{< fa book >}} Allen B. Downey, [*Think Bayes 2*](https://allendowney.github.io/ThinkBayes2/) [@Downey:2021]
+

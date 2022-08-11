@@ -37,6 +37,7 @@ website:
       - href: index.qmd
         text: Home
       - schedule.qmd
+      - resources.qmd
     right:
       - icon: github
         href: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
