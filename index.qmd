@@ -11,7 +11,6 @@ withr::with_dir(here::here(), {
 })
 ```
 
-
 ## Main readings
 
 [@McElreath:2020] and [@JohnsonOttDogucu:2022]
@@ -28,6 +27,8 @@ withr::with_dir(here::here(), {
 - https://bookdown.org/content/3686/
 
 ---
+
+
 
 $$
 \require{mathtools}
