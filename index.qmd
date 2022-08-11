@@ -1,9 +1,22 @@
 ---
-title: "Independent readings on Bayesian statistics"
-format:
-  html:
-    toc: true
+pagetitle: "Bayesian Statistics Readings"
+details: "Hey"
+course-logo: "files/img/no-text@3x.png"
+page-layout: custom
+sidebar: false
+toc: false
 ---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.align = "center", fig.retina = 3,
+                      dev = "png", dev.args = list(type = "cairo-png"),
+                      collapse = TRUE)
+
+options(digits = 3, width = 120,
+        dplyr.summarise.inform = FALSE,
+        knitr.kable.NA = "")
+```
 
 ```{r load-targets, include=FALSE}
 withr::with_dir(here::here(), {
@@ -11,24 +24,128 @@ withr::with_dir(here::here(), {
 })
 ```
 
-## Main readings
+```{css echo=FALSE}
+.content-block {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
-[@McElreath:2020] and [@JohnsonOttDogucu:2022]
+@media(max-width: 700px) {
+  #home-logo {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+}
 
-- https://xcelab.net/rm/statistical-rethinking/
-- https://github.com/rmcelreath/rethinking
-- https://bookdown.org/content/4857/
-- https://vincentarelbundock.github.io/rethinking2/
+@media(min-width: 700px) {
+  #home-logo {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
 
+@media(min-width: 900px) {
+  .content-block {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
 
-## Other things
+@media (min-width: 1200px) {
+  .content-block {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
 
-- Krushcke - https://sites.google.com/site/doingbayesiandataanalysis/
-- https://bookdown.org/content/3686/
+#home h1,
+#home h2 {
+  text-align: center;
+}
+```
+
+::: {#home}
+
+::: {.content-block}
+
+# Bayesian Statistics
+
+::: {.text-center .text-secondary .fs-4}
+
+Independent readings course on Bayesian statistics
+
+[Andrew Heiss](https://www.andrewheiss.com) and [Meng Ye](https://aysps.gsu.edu/phd-student/ye-meng/)
+
+Fall 2022
+
+:::
+
+::: {#home-logo}
+
+```{r echo=FALSE}
+knitr::include_graphics("files/img/text@3x.png")
+```
+
+:::
 
 ---
 
+## Main readings
 
+::: {.grid}
+
+::: {.g-col-6}
+
+::: {.text-center}
+
+[**Statistical Rethinking:<br>A Bayesian Course with Examples in R and Stan**](https://xcelab.net/rm/statistical-rethinking/)
+
+Richard McElreath
+
+:::
+
+<a href="https://xcelab.net/rm/statistical-rethinking/">
+```{r echo=FALSE, out.width="50%"}
+knitr::include_graphics("files/img/rethinking-cover.jpg")
+```
+</a>
+
+:::
+
+::: {.g-col-6}
+
+::: {.text-center}
+
+[**Bayes Rules!<br>An Introduction to Applied Bayesian Modeling**](https://www.bayesrulesbook.com/)
+
+Alicia A. Johnson, Miles Q. Ott, and Mine Dogucu
+
+:::
+
+<a href="https://www.bayesrulesbook.com/">
+```{r echo=FALSE, out.width="50%"}
+knitr::include_graphics("files/img/bayes-rules-cover.jpeg")
+```
+</a>
+
+:::
+
+:::
+
+---
+
+\ 
+
+```{r bayesian-triptych, echo=FALSE}
+#| fig-width: 16
+#| fig-height: 6
+#| fig-align: center
+library(patchwork)
+
+bayesian_triptych$p1 | bayesian_triptych$p2 | bayesian_triptych$p3
+```
 
 $$
 \require{mathtools}
@@ -55,12 +172,6 @@ $$
 {\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}}
 $$
 
-```{r bayesian-triptych, echo=FALSE}
-#| fig-width: 12
-#| fig-height: 4
-#| fig-align: center
-#| column: screen-inset-right
-library(patchwork)
+:::
 
-bayesian_triptych$p1 | bayesian_triptych$p2 | bayesian_triptych$p3
-```
+:::

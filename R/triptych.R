@@ -17,7 +17,7 @@ build_triptych_panels <- function() {
   inv_logit <- function(x) 1 / (1 + exp(-x))
 
   theme_triptych <- function(title_color) {
-    theme_bw() +
+    theme_bw(base_family = "Raleway", base_size = 16) +
       theme(panel.grid = element_blank(),
             axis.text = element_blank(),
             axis.ticks = element_blank(),

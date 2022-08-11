@@ -11,18 +11,46 @@ bibliography: files/bib/references.bib
 csl: files/bib/chicago-author-date.csl
 
 website:
-  title: "Bayesian statistics"
+  title: "Bayesian Statistics"
+  site-url: "https://bayesf22.classes.andrewheiss.com"
+  description-meta: "Independent readings course on Bayesian statistics at the Andrew Young School of Policy Studies at Georgia State University"
 
-  repo-url: https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com
+  favicon: "/files/favicon.png"
+
+  twitter-card:
+    image: "/files/social-image-f22.png"
+    card-style: summary_large_image
+    creator: "@andrewheiss"
+    # site: "@andrewheiss"
+
+  open-graph:
+    image: "/files/social-image-f22.png"
+    locale: en_US
+
+  repo-url: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
   repo-actions: [edit, issue]
 
   navbar:
     pinned: true
-    background: dark
+    background: primary
     left:
       - href: index.qmd
         text: Home
       - schedule.qmd
+    right:
+      - icon: github
+        href: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
+        aria-label: GitHub
+
+  page-footer:
+    left: |
+      Content {{< fa brands creative-commons >}} 2022 by Andrew Heiss and Meng Ye<br>
+      All content licensed under a {{< fa brands creative-commons >}}
+      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+      [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
+    right: |
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
+      [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
 
 
 format:

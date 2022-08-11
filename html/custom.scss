@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Raleway:wght@100..900&display=swap');
 
 /*-- scss:defaults --*/
 $white:    #fff !default;
@@ -35,8 +35,8 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
-$font-family-sans-serif:      Roboto Slab, sans-serif !default;
-$font-family-serif:           Assistant, serif !default;  /* Not actually a serif font but whatever */
+$font-family-sans-serif:      Raleway, sans-serif !default;
+$font-family-serif:           Lora, serif !default;
 
 $font-size-base:              1.25rem !default;
 $headings-font-weight:        700 !default;
@@ -64,14 +64,24 @@ h2 {
   font-weight: 300;
 }
 
-ul,
-ol {
+.content ul,
+.content ol {
   font-family: $font-family-serif;
 }
 
 
 .references {
   font-family: $font-family-serif;
+}
+
+
+// Footer stuff
+.nav-footer-left {
+  text-align: left;
+}
+
+.nav-footer-right {
+  text-align: right;
 }
 
 
