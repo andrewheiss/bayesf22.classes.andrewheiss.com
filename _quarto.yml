@@ -17,19 +17,18 @@ website:
   repo-actions: [edit, issue]
 
   navbar:
+    pinned: true
+    background: dark
     left:
       - href: index.qmd
         text: Home
       - schedule.qmd
-    right:
-      - icon: github
-        href: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
-        aria-label: GitHub
+
 
 format:
   html:
     theme:
-      - simplex
+      - litera
       - html/custom.scss
     toc: true
     highlight-style: monokai
