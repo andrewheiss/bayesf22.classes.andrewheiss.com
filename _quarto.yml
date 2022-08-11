@@ -50,7 +50,7 @@ website:
       [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
-      [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
+      [View the source at {{< fa brands github >}} GitHub](https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com)
 
 
 format:
