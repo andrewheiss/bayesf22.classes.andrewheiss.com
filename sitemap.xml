@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/resources.html</loc>
+    <lastmod>2022-08-11T21:32:57.616Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/index.html</loc>
-    <lastmod>2022-08-11T19:14:48.004Z</lastmod>
+    <lastmod>2022-08-11T21:32:58.348Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/schedule.html</loc>
-    <lastmod>2022-08-11T19:14:48.756Z</lastmod>
+    <lastmod>2022-08-11T21:32:58.780Z</lastmod>
   </url>
 </urlset>
