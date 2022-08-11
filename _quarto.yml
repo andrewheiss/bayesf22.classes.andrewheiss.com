@@ -18,13 +18,13 @@ website:
   favicon: "/files/favicon.png"
 
   twitter-card:
-    image: "/files/social-image-f22.png"
+    image: "https://bayesf22.classes.andrewheiss.com/files/social-image-f22.png"
     card-style: summary_large_image
     creator: "@andrewheiss"
     # site: "@andrewheiss"
 
   open-graph:
-    image: "/files/social-image-f22.png"
+    image: "https://bayesf22.classes.andrewheiss.com/files/social-image-f22.png"
     locale: en_US
 
   repo-url: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
