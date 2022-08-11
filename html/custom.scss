@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap');
 
 /*-- scss:defaults --*/
 $white:    #fff !default;
@@ -13,18 +13,18 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
-// Inferno colors
-// viridisLite::viridis(8, option = "inferno", begin = 0.1, end = 0.9)
-$blue:    #42159D !default;
+// Lakota colors from MetBrewer
+// MetBrewer::met.brewer("Lakota", 6)
+$blue:    #20235b !default;  // Custom
 $indigo:  #771C6D !default;
 $purple:  #480B6A !default;
 $pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$yellow:  #FB9E07 !default;
-$green:   #02b875 !default;
+$red:     #931e18 !default;  // Custom
+$orange:  #da7901 !default;  // Custom
+$yellow:  #f0be3d !default;  // Custom
+$green:   #247d3f !default;  // Custom
 $teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+$cyan:    #04a3bd !default;  // Custom
 
 $primary:       $blue !default;
 $secondary:     $gray-500 !default;
@@ -35,8 +35,8 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
-$font-family-sans-serif:      Fira Sans Condensed, sans-serif !default;
-$font-family-serif:           Barlow, serif !default;  /* Not actually a serif font but whatever */
+$font-family-sans-serif:      Roboto Slab, sans-serif !default;
+$font-family-serif:           Assistant, serif !default;  /* Not actually a serif font but whatever */
 
 $font-size-base:              1.25rem !default;
 $headings-font-weight:        700 !default;
@@ -52,7 +52,7 @@ $toc-font-size: 1.1rem;
 $sidebar-font-size: 1.1rem;
 $sidebar-font-size-section: 0.9rem;
 
-$link-color: $red;
+$link-color: $orange;
 $link-hover-color: $yellow;
 
 $monokai-bg: #2e3440;
@@ -61,10 +61,16 @@ $monokai-bg: #2e3440;
 /*-- scss:rules --*/
 h2 {
   border-bottom: none;
+  font-weight: 300;
 }
 
 ul,
 ol {
+  font-family: $font-family-serif;
+}
+
+
+.references {
   font-family: $font-family-serif;
 }
 
