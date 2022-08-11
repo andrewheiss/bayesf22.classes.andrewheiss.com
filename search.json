@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Independent readings on Bayesian statistics",
-    "section": "",
-    "text": "(McElreath 2020) and (Johnson, Ott, and Dogucu 2022)\n\nhttps://xcelab.net/rm/statistical-rethinking/\nhttps://github.com/rmcelreath/rethinking\nhttps://bookdown.org/content/4857/\nhttps://vincentarelbundock.github.io/rethinking2/"
+    "objectID": "index.html#main-readings",
+    "href": "index.html#main-readings",
+    "title": "Bayesian Statistics",
+    "section": "Main readings",
+    "text": "Main readings\n\n\n\nStatistical Rethinking:A Bayesian Course with Examples in R and Stan\nRichard McElreath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!An Introduction to Applied Bayesian Modeling\nAlicia A. Johnson, Miles Q. Ott, and Mine Dogucu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\\[\n\\require{mathtools}\n\\definecolor{bayesred}{RGB}{147, 30, 24}\n\\definecolor{bayesblue}{RGB}{32, 35, 91}\n\\definecolor{bayesorange}{RGB}{218, 120, 1}\n\\definecolor{grey}{RGB}{128, 128, 128}\n{\\color{bayesorange} P (\\text{H} \\mid \\text{E})} = \\frac\n{{\\color{bayesred} P(\\text{H})} \\times\n{\\color{bayesblue}P(\\text{E} \\mid \\text{H})}}\n{\\color{grey} {P(\\text{E})}}\n\\]\n\\[\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesorange} P (\\text{Unknown} \\mid \\text{Data})}^{\\text{Posterior}}} = \\frac\n{{\\color{grey} \\overbracket[0.25pt]{\\color{bayesred} P (\\text{Unknown})}^{\\text{Prior}}} \\times\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesblue} P (\\text{Data} \\mid \\text{Unknown})}^{\\text{Likelihood}}}}\n{{\\color{grey} \\underbracket[0.25pt]{{\\color{grey} P(\\text{E})}}_{\\text{Average likelihood}}}}\n\\]\n\\[\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesred} P (\\text{Unknown})}^{\\text{Prior}}} \\times\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesblue} P (\\text{Data} \\mid \\text{Unknown})}^{\\text{Likelihood}}} \\propto\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesorange} P (\\text{Unknown} \\mid \\text{Data})}^{\\text{Posterior}}}\n\\]"
   },
   {
-    "objectID": "index.html#other-things",
-    "href": "index.html#other-things",
-    "title": "Independent readings on Bayesian statistics",
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n(McElreath 2020) and (Johnson, Ott, and Dogucu 2022)"
+  },
+  {
+    "objectID": "schedule.html#other-things",
+    "href": "schedule.html#other-things",
+    "title": "Schedule",
     "section": "Other things",
-    "text": "Other things\n\nKrushcke - https://sites.google.com/site/doingbayesiandataanalysis/\nhttps://bookdown.org/content/3686/\n\n\n\\[\n\\require{mathtools}\n\\definecolor{bayesred}{RGB}{147, 30, 24}\n\\definecolor{bayesblue}{RGB}{32, 35, 91}\n\\definecolor{bayesorange}{RGB}{218, 120, 1}\n\\definecolor{grey}{RGB}{128, 128, 128}\n{\\color{bayesorange} P (\\text{H} \\mid \\text{E})} = \\frac\n{{\\color{bayesred} P(\\text{H})} \\times\n{\\color{bayesblue}P(\\text{E} \\mid \\text{H})}}\n{\\color{grey} {P(\\text{E})}}\n\\]\n\\[\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesorange} P (\\text{Unknown} \\mid \\text{Data})}^{\\text{Posterior}}} = \\frac\n{{\\color{grey} \\overbracket[0.25pt]{\\color{bayesred} P (\\text{Unknown})}^{\\text{Prior}}} \\times\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesblue} P (\\text{Data} \\mid \\text{Unknown})}^{\\text{Likelihood}}}}\n{{\\color{grey} \\underbracket[0.25pt]{{\\color{grey} P(\\text{E})}}_{\\text{Average likelihood}}}}\n\\]\n\\[\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesred} P (\\text{Unknown})}^{\\text{Prior}}} \\times\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesblue} P (\\text{Data} \\mid \\text{Unknown})}^{\\text{Likelihood}}} \\propto\n{\\color{grey} \\overbracket[0.25pt]{\\color{bayesorange} P (\\text{Unknown} \\mid \\text{Data})}^{\\text{Posterior}}}\n\\]"
+    "text": "Other things\n\nKrushcke - https://sites.google.com/site/doingbayesiandataanalysis/\nhttps://bookdown.org/content/3686/"
   }
 ]

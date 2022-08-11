@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bayesian statistics - Independent readings on Bayesian statistics</title>
+<title>Bayesian Statistics Readings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -15,25 +15,6 @@ span.underline{text-decoration: underline;}
 div.column{display: inline-block; vertical-align: top; width: 50%;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
 </style>
 
 
@@ -43,6 +24,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href=".//files/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -52,6 +34,8 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,16 +58,28 @@ div.csl-indent {
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<meta property="og:title" content="Bayesian Statistics Readings">
+<meta property="og:image" content="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/files/social-image-f22.png">
+<meta property="og:site-name" content="Bayesian Statistics">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="640">
+<meta property="og:image:width" content="1280">
+<meta name="twitter:title" content="Bayesian Statistics Readings">
+<meta name="twitter:image" content="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/files/social-image-f22.png">
+<meta name="twitter:creator" content="@andrewheiss">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="640">
+<meta name="twitter:image-width" content="1280">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Bayesian statistics</span>
+    <span class="navbar-title">Bayesian Statistics</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -97,61 +93,138 @@ div.csl-indent {
     <a class="nav-link" href="./schedule.html">Schedule</a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ </a>
+  </li>  
+</ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#main-readings" id="toc-main-readings" class="nav-link active" data-scroll-target="#main-readings">Main readings</a></li>
-  <li><a href="#other-things" id="toc-other-things" class="nav-link" data-scroll-target="#other-things">Other things</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
-    </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Independent readings on Bayesian statistics</h1>
+
+
+<div class="cell" data-layout-align="center">
+<style type="text/css">
+.content-block {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+@media(max-width: 700px) {
+  #home-logo {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 700px) {
+  #home-logo {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 900px) {
+  .content-block {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-block {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+#home h1,
+#home h2 {
+  text-align: center;
+}
+</style>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-    
-  </div>
-  
-
-</header>
-
-<section id="main-readings" class="level2">
-<h2 class="anchored" data-anchor-id="main-readings">Main readings</h2>
-<p><span class="citation" data-cites="McElreath:2020">(<a href="#ref-McElreath:2020" role="doc-biblioref">McElreath 2020</a>)</span> and <span class="citation" data-cites="JohnsonOttDogucu:2022">(<a href="#ref-JohnsonOttDogucu:2022" role="doc-biblioref">Johnson, Ott, and Dogucu 2022</a>)</span></p>
-<ul>
-<li>https://xcelab.net/rm/statistical-rethinking/</li>
-<li>https://github.com/rmcelreath/rethinking</li>
-<li>https://bookdown.org/content/4857/</li>
-<li>https://vincentarelbundock.github.io/rethinking2/</li>
-</ul>
-</section>
-<section id="other-things" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="other-things">Other things</h2>
-<ul>
-<li>Krushcke - https://sites.google.com/site/doingbayesiandataanalysis/</li>
-<li>https://bookdown.org/content/3686/</li>
-</ul>
+<div id="home">
+<section id="bayesian-statistics" class="level1 content-block">
+<h1>Bayesian Statistics</h1>
+<div class="text-center text-secondary fs-4">
+<p>Independent readings course on Bayesian statistics</p>
+<p><a href="https://www.andrewheiss.com">Andrew Heiss</a> and <a href="https://aysps.gsu.edu/phd-student/ye-meng/">Meng Ye</a></p>
+<p>Fall 2022</p>
+</div>
+<div id="home-logo">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/img/text@3x.png" class="img-fluid figure-img" width="735"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
 <hr>
+<section id="main-readings" class="level2">
+<h2 data-anchor-id="main-readings">Main readings</h2>
+<div class="grid">
+<div class="g-col-6">
+<div class="text-center">
+<p><a href="https://xcelab.net/rm/statistical-rethinking/"><strong>Statistical Rethinking:<br>A Bayesian Course with Examples in R and Stan</strong></a></p>
+<p>Richard McElreath</p>
+</div>
+<p><a href="https://xcelab.net/rm/statistical-rethinking/"></a></p><a href="https://xcelab.net/rm/statistical-rethinking/">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/img/rethinking-cover.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</a><p><a href="https://xcelab.net/rm/statistical-rethinking/"></a></p>
+</div>
+<div class="g-col-6">
+<div class="text-center">
+<p><a href="https://www.bayesrulesbook.com/"><strong>Bayes Rules!<br>An Introduction to Applied Bayesian Modeling</strong></a></p>
+<p>Alicia A. Johnson, Miles Q. Ott, and Mine Dogucu</p>
+</div>
+<p><a href="https://www.bayesrulesbook.com/"></a></p><a href="https://www.bayesrulesbook.com/">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/img/bayes-rules-cover.jpeg" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</a><p><a href="https://www.bayesrulesbook.com/"></a></p>
+</div>
+</div>
+<hr>
+<p>&nbsp;</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/bayesian-triptych-1.png" class="img-fluid figure-img" width="1536"></p>
+</figure>
+</div>
+</div>
+</div>
 <p><span class="math display">\[
 \require{mathtools}
 \definecolor{bayesred}{RGB}{147, 30, 24}
@@ -174,28 +247,13 @@ div.csl-indent {
 {\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}} \propto
 {\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}}
 \]</span></p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display column-screen-inset-right">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="index_files/figure-html/bayesian-triptych-1.png" class="img-fluid figure-img" width="1152"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-
 </section>
+</section>
+</div>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-JohnsonOttDogucu:2022" class="csl-entry" role="doc-biblioentry">
-Johnson, Alicia A., Miles Q. Ott, and Mine Dogucu. 2022. <em>Bayes Rules! An Introduction to Applied <span>Bayesian</span> Modeling</em>. Boca Raton, Florida: <span>Chapman and Hall</span> / CRC. <a href="https://www.bayesrulesbook.com/">https://www.bayesrulesbook.com/</a>.
-</div>
-<div id="ref-McElreath:2020" class="csl-entry" role="doc-biblioentry">
-McElreath, Richard. 2020. <em>Statistical Rethinking: A Bayesian Course with Examples in <span>R</span> and Stan</em>. 2nd ed. Boca Raton, Florida: <span>Chapman and Hall</span> / CRC. <a href="https://xcelab.net/rm/statistical-rethinking/">https://xcelab.net/rm/statistical-rethinking/</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -294,6 +352,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-hidden="true"></i> 2022 by Andrew Heiss and Meng Ye<br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-hidden="true"></i> <i class="fa-brands fa-creative-commons-by" aria-hidden="true"></i> <i class="fa-brands fa-creative-commons-nc" aria-hidden="true"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></div>   
+    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-hidden="true"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="?var:course.github">View the source at <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></div>
+  </div>
+</footer>
 
 
 
