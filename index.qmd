@@ -1,6 +1,16 @@
 ---
 title: "Independent readings on Bayesian statistics"
+format:
+  html:
+    toc: true
 ---
+
+```{r load-targets, include=FALSE}
+withr::with_dir(here::here(), {
+  targets::tar_load(bayesian_triptych)
+})
+```
+
 
 ## Main readings
 
@@ -16,3 +26,40 @@ title: "Independent readings on Bayesian statistics"
 
 - Krushcke - https://sites.google.com/site/doingbayesiandataanalysis/
 - https://bookdown.org/content/3686/
+
+---
+
+$$
+\require{mathtools}
+\definecolor{bayesred}{RGB}{147, 30, 24}
+\definecolor{bayesblue}{RGB}{32, 35, 91}
+\definecolor{bayesorange}{RGB}{218, 120, 1}
+\definecolor{grey}{RGB}{128, 128, 128}
+{\color{bayesorange} P (\text{H} \mid \text{E})} = \frac
+{{\color{bayesred} P(\text{H})} \times 
+{\color{bayesblue}P(\text{E} \mid \text{H})}}
+{\color{grey} {P(\text{E})}}
+$$
+
+$$
+{\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}} = \frac
+{{\color{grey} \overbracket[0.25pt]{\color{bayesred} P (\text{Unknown})}^{\text{Prior}}} \times 
+{\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}}}
+{{\color{grey} \underbracket[0.25pt]{{\color{grey} P(\text{E})}}_{\text{Average likelihood}}}}
+$$
+
+$$
+{\color{grey} \overbracket[0.25pt]{\color{bayesred} P (\text{Unknown})}^{\text{Prior}}} \times 
+{\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}} \propto
+{\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}}
+$$
+
+```{r bayesian-triptych, echo=FALSE}
+#| fig-width: 12
+#| fig-height: 4
+#| fig-align: center
+#| column: screen-inset-right
+library(patchwork)
+
+bayesian_triptych$p1 | bayesian_triptych$p2 | bayesian_triptych$p3
+```
