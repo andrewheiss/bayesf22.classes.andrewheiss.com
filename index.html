@@ -38,7 +38,6 @@ div.csl-indent {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -73,6 +72,7 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -97,13 +97,6 @@ div.csl-indent {
     <a class="nav-link" href="./schedule.html">Schedule</a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"><i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
- </a>
-  </li>  
-</ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -124,7 +117,7 @@ div.csl-indent {
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -152,12 +145,44 @@ div.csl-indent {
 <li>https://vincentarelbundock.github.io/rethinking2/</li>
 </ul>
 </section>
-<section id="other-things" class="level2">
+<section id="other-things" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="other-things">Other things</h2>
 <ul>
 <li>Krushcke - https://sites.google.com/site/doingbayesiandataanalysis/</li>
 <li>https://bookdown.org/content/3686/</li>
 </ul>
+<hr>
+<p><span class="math display">\[
+\require{mathtools}
+\definecolor{bayesred}{RGB}{147, 30, 24}
+\definecolor{bayesblue}{RGB}{32, 35, 91}
+\definecolor{bayesorange}{RGB}{218, 120, 1}
+\definecolor{grey}{RGB}{128, 128, 128}
+{\color{bayesorange} P (\text{H} \mid \text{E})} = \frac
+{{\color{bayesred} P(\text{H})} \times
+{\color{bayesblue}P(\text{E} \mid \text{H})}}
+{\color{grey} {P(\text{E})}}
+\]</span></p>
+<p><span class="math display">\[
+{\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}} = \frac
+{{\color{grey} \overbracket[0.25pt]{\color{bayesred} P (\text{Unknown})}^{\text{Prior}}} \times
+{\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}}}
+{{\color{grey} \underbracket[0.25pt]{{\color{grey} P(\text{E})}}_{\text{Average likelihood}}}}
+\]</span></p>
+<p><span class="math display">\[
+{\color{grey} \overbracket[0.25pt]{\color{bayesred} P (\text{Unknown})}^{\text{Prior}}} \times
+{\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}} \propto
+{\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}}
+\]</span></p>
+<div class="cell page-columns page-full" data-layout-align="center">
+<div class="cell-output-display column-screen-inset-right">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/bayesian-triptych-1.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 
