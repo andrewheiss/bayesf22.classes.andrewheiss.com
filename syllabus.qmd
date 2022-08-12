@@ -1,6 +1,5 @@
 ---
 title: "Syllabus"
-sidebar: false
 page-layout: full
 ---
 

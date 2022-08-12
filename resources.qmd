@@ -1,9 +1,6 @@
 ---
 title: "Resources"
 toc: true
-sidebar: false
-#csl: files/bib/chicago-fullnote-bibliography.csl
-#link-citations: false
 ---
 
 <p><a href="/files/references.bib" class="btn btn-success" role="button">{{< fa download >}} .bib file of all references</a></p>

@@ -65,6 +65,11 @@ website:
         - schedule/13-week.qmd
         - schedule/14-week.qmd
 
+    # Need to reference a second hybrid sidebar section even though only the
+    # schedule section uses a hybrid sidebar because without this, all the pages
+    # get the sidebar instead of just the schedule section :shrug:
+    - title: "Resources"
+
   page-footer:
     left: |
       Content {{< fa brands creative-commons >}} 2022 by Andrew Heiss and Meng Ye<br>
