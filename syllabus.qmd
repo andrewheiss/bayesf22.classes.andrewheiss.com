@@ -1,0 +1,73 @@
+---
+title: "Syllabus"
+sidebar: false
+page-layout: full
+---
+
+## Course objectives
+
+By the end of this readings course, you (and I!) will be literate in the language of Bayesian inference and will be able to correctly run Bayesian models using Stan and brms.
+
+
+## Course materials
+
+### Books
+
+We'll be working through two textbooks throughout the semester:
+
+::: {.grid}
+::: {.g-col-6}
+::: {.text-left}
+Richard McElreath, [**Statistical Rethinking:** A Bayesian Course with Examples in R and Stan](https://xcelab.net/rm/statistical-rethinking/)
+:::
+
+<a href="https://xcelab.net/rm/statistical-rethinking/">
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("files/img/rethinking-cover.jpg")
+```
+
+</a>
+:::
+
+::: {.g-col-6}
+::: {.text-left}
+Alicia A. Johnson, Miles Q. Ott, and Mine Dogucu, [**Bayes Rules!** An Introduction to Applied Bayesian Modeling](https://www.bayesrulesbook.com/)
+:::
+
+<a href="https://www.bayesrulesbook.com/">
+
+```{r echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics("files/img/bayes-rules-cover.jpeg")
+```
+
+</a>
+:::
+:::
+
+*Bayes Rules!* is [available online for free](https://www.bayesrulesbook.com/). The book for *Statistical Rethinking* is not free ([\$70 on Amazon](https://www.amazon.com/Statistical-Rethinking-Bayesian-Examples-Chapman/dp/036713991X/)), but Richard McElreath has provided [20 video lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN) with [accompanying slides](https://github.com/rmcelreath/stat_rethinking_2022) and [homework assignments and answer keys](https://github.com/rmcelreath/stat_rethinking_2022/tree/main/homework).
+
+We'll read all of *Bayes Rules!*, all of *Statistical Rethinking*, watch all of McElreath's *Statistical Rethinking* lectures, and complete a bunch of the assignments and homework questions from both books.
+
+### Articles, book chapters, and other materials
+
+There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the page for that week.
+
+
+## Course structure
+
+We'll meet weekly on Thursdays at 10:00 AM in my office (or online if necessary). We'll (both!) do the readings and watch the videos and work through the homework problems beforehand and we'll use the in-person time to discuss the materials, look at each other's code, and review concepts.
+
+We'll try to follow [the schedule](/schedule/index.qmd), but since this is my first time working through either of these books, I'm not 100% sure I've got their content aligned correctly or spaced our correctly, so we can be super flexible and make adjustments as needed.
+
+
+## Course policies
+
+**Be nice. Be honest. Don't cheat.**
+
+We will also follow [Georgia State's Code of Conduct](https://codeofconduct.gsu.edu/).
+
+
+## Assignments and grades
+
+I'll give you a grade based on a pass/fail system. Do good work^[i.e. do the readings, watch the videos, write the code], get an A. There are no exams or quizzes and there's no formal final project. (Though it'd be super neat if we thought of a nonprofit-related paper that we could write Bayesianly after this class!)
