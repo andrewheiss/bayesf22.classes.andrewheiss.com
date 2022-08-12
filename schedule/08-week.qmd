@@ -7,7 +7,7 @@ date: 2022-10-13
 ## Prepare
 
 - {{< fa book >}} *Statistical Rethinking* chapter 12: "Monsters and Mixtures"
-- {{< fa video >}} Statistical Rethinking 2022, lecture 11: ["Ordered Categories"](https://www.youtube.com/watch?v=-397DMPooR8&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=11)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 11: ["Ordered Categories"](https://youtu.be/-397DMPooR8)
 
 
 ## Practice

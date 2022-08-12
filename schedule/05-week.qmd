@@ -7,7 +7,7 @@ date: 2022-09-22
 ## Prepare
 
 - {{< fa book >}} *Statistical Rethinking* chapter 8: "Markov Chain Monte Carlo"
-- {{< fa video >}} Statistical Rethinking 2022, lecture 8: ["Markov Chain Monte Carlo"](https://www.youtube.com/watch?v=Qqz5AJjyugM&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=8&pp=sAQB)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 8: ["Markov Chain Monte Carlo"](https://youtu.be/Qqz5AJjyugM)
 - {{< fa book >}} *Bayes Rules* chapter 6: ["Approximating the Posterior"](https://www.bayesrulesbook.com/chapter-6.html)
 - {{< fa book >}} *Bayes Rules* chapter 7: ["MCMC under the Hood"](https://www.bayesrulesbook.com/chapter-7.html)
 - {{< fa book >}} *Bayes Rules* chapter 8: ["Posterior Inference & Prediction"](https://www.bayesrulesbook.com/chapter-8.html)

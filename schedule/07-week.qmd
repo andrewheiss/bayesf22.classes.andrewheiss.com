@@ -8,8 +8,8 @@ date: 2022-10-06
 
 - {{< fa book >}} *Statistical Rethinking* chapter 10: "Big Entropy and the Generalized Linear Model"
 - {{< fa book >}} *Statistical Rethinking* chapter 11: "God Spiked the Integers"
-- {{< fa video >}} Statistical Rethinking 2022, lecture 9: ["Logistic and Binomial GLMs"](https://www.youtube.com/watch?v=nPi5yGbfxuo&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=9)
-- {{< fa video >}} Statistical Rethinking 2022, lecture 10: ["Sensitivity and Poisson GLMs"](https://www.youtube.com/watch?v=YrwL6t0kW2I&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=10)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 9: ["Logistic and Binomial GLMs"](https://youtu.be/nPi5yGbfxuo)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 10: ["Sensitivity and Poisson GLMs"](https://youtu.be/YrwL6t0kW2I)
 - {{< fa book >}} *Bayes Rules* chapter 12: ["Poisson & Negative Binomial Regression"](https://www.bayesrulesbook.com/chapter-12.html)
 - {{< fa book >}} *Bayes Rules* chapter 13: ["Logistic Regression"](https://www.bayesrulesbook.com/chapter-13.html)
 

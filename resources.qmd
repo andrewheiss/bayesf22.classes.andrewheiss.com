@@ -19,6 +19,7 @@ Official links:
 - {{< fa book >}} [Book page](https://xcelab.net/rm/statistical-rethinking/)
 - {{< fa brands r-project >}} [R package](https://github.com/rmcelreath/rethinking)
 - {{< fa brands youtube >}} [2022 lecture videos](https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN)
+- {{< fa brands github >}} [2022 lecture slides and homework and answers](https://github.com/rmcelreath/stat_rethinking_2022)
 
 Translations:
 

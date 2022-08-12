@@ -9,7 +9,7 @@ date: 2022-09-15
 - {{< fa book >}} *Statistical Rethinking* chapter 5: "The Many Variables & The Spurious Waffles"
 - {{< fa book >}} *Statistical Rethinking* chapter 6: "The Haunted DAG & The Causal Terror"
 - {{< fa video >}} Statistical Rethinking 2022, lecture 5: ["Elemental Confounds"](https://youtu.be/UpP-_mBvECI)
-- {{< fa video >}} Statistical Rethinking 2022, lecture 6: ["Good and Bad Controls"](https://www.youtube.com/watch?v=NSuTaeW6Orc&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=6)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 6: ["Good and Bad Controls"](https://youtu.be/NSuTaeW6Orc)
 
 
 ## Practice

@@ -7,8 +7,8 @@ date: 2022-11-10
 ## Prepare
 
 - {{< fa book >}} *Statistical Rethinking* chapter 14: "Adventures in Covariance"
-- {{< fa video >}} Statistical Rethinking 2022, lecture 15: ["Social Networks"](https://www.youtube.com/watch?v=L_QumFUv7C8&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=15)
-- {{< fa video >}} Statistical Rethinking 2022, lecture 16: ["Gaussian Processes"](https://www.youtube.com/watch?v=PIuqxOBJqLU&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=16)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 15: ["Social Networks"](https://youtu.be/L_QumFUv7C8)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 16: ["Gaussian Processes"](https://youtu.be/PIuqxOBJqLU)
 - {{< fa book >}} *Bayes Rules* chapter 14: ["Naive Bayes Classification"](https://www.bayesrulesbook.com/chapter-14.html)
 
 
