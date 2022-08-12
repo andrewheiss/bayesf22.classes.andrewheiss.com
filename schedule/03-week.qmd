@@ -1,0 +1,19 @@
+---
+title: "Week 3"
+subtitle: "Regression, priors, and conjugates"
+date: 2022-09-08
+---
+
+## Prepare
+
+- {{< fa book >}} *Statistical Rethinking* chapter 4: "Geocentric Models"
+- {{< fa book >}} *Statistical Rethinking* chapter 5: "The Many Variables & The Spurious Waffles"
+- {{< fa video >}} Statistical Rethinking 2022, lecture 3: ["Basic Regression"](https://www.youtube.com/watch?v=zYYBtxHWE0A)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 4: ["Categories & Curves"](https://youtu.be/QiHKdvAbYII)
+- {{< fa book >}} *Bayes Rules* chapter 4: ["Balance and Sequentiality in Bayesian Analyses"](https://www.bayesrulesbook.com/chapter-4.html)
+- {{< fa book >}} *Bayes Rules* chapter 5: ["Conjugate Families"](https://www.bayesrulesbook.com/chapter-5.html)
+
+
+
+## Practice
+

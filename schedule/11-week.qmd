@@ -1,0 +1,17 @@
+---
+title: "Week 11"
+subtitle: "Multilevel models III"
+date: 2022-11-03
+---
+
+## Prepare
+
+- {{< fa book >}} *Statistical Rethinking* chapter 14: "Adventures in Covariance"
+- {{< fa video >}} Statistical Rethinking 2022, lecture 13: ["Multi-Multilevel Models"](https://www.youtube.com/watch?v=n2aJYtuGu54&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=13)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 14: ["Correlated varying effects"](https://www.youtube.com/watch?v=XDoAglqd7ss&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=14)
+- {{< fa book >}} *Bayes Rules* chapter 18: ["Non-Normal Hierarchical Regression & Classification"](https://www.bayesrulesbook.com/chapter-18.html)
+- {{< fa book >}} *Bayes Rules* chapter 19: ["Adding More Layers"](https://www.bayesrulesbook.com/chapter-19.html)
+
+
+## Practice
+

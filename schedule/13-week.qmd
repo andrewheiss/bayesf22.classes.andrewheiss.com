@@ -1,0 +1,15 @@
+---
+title: "Week 13"
+subtitle: "Measurement error and missing data"
+date: 2022-11-17
+---
+
+## Prepare
+
+- {{< fa book >}} *Statistical Rethinking* chapter 15: "Missing Data and Other Opportunities"
+- {{< fa video >}} Statistical Rethinking 2022, lecture 17: ["Measurement Error"](https://www.youtube.com/watch?v=lTFAB6QmwHM&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=17)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 18: ["Missing Data"](https://www.youtube.com/watch?v=oMiSb8GKR0o&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=18)
+
+
+## Practice
+

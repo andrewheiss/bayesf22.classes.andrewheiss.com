@@ -1,0 +1,15 @@
+---
+title: "Week 1"
+subtitle: "Introduction to Bayesian thinking + {targets}"
+date: 2022-08-25
+---
+
+## Prepare
+
+- {{< fa book >}} *Statistical Rethinking* chapter 1: "The Golem of Prague"
+- {{< fa video >}} Statistical Rethinking 2022, lecture 1: ["The Golem of Prague"](https://youtu.be/cclUd_HoRlo)
+- {{< fa book >}} *Bayes Rules* chapter 1: ["The (Big) Bayesian Picture"](https://www.bayesrulesbook.com/chapter-1.html)
+
+
+## Practice
+

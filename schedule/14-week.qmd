@@ -1,0 +1,16 @@
+---
+title: "Week 14"
+subtitle: "Beyond GLMs"
+date: 2022-12-01
+---
+
+## Prepare
+
+- {{< fa book >}} *Statistical Rethinking* chapter 16: "Generalized Linear Madness"
+- {{< fa book >}} *Statistical Rethinking* chapter 17: "Horoscopes"
+- {{< fa video >}} Statistical Rethinking 2022, lecture 19: ["Beyond GLMs"](https://youtu.be/cclUd_HoRlo)
+- {{< fa video >}} Statistical Rethinking 2022, lecture 20: ["Horoscopes"](https://youtu.be/cclUd_HoRlo)
+
+
+## Practice
+

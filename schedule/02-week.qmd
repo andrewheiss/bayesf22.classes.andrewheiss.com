@@ -1,0 +1,17 @@
+---
+title: "Week 2"
+subtitle: "Starting with Bayes rule, models, and regression"
+date: 2022-09-01
+---
+
+## Prepare
+
+- {{< fa book >}} *Statistical Rethinking* chapter 2: "Small Worlds and Large Worlds"
+- {{< fa book >}} *Statistical Rethinking* chapter 3: "Sampling the Imaginary"
+- {{< fa video >}} Statistical Rethinking 2022, lecture 2: ["Bayesian Inference"](https://www.youtube.com/watch?v=guTdrfycW2Q&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=3)
+- {{< fa book >}} *Bayes Rules* chapter 2: ["Bayes' Rule"](https://www.bayesrulesbook.com/chapter-2.html)
+- {{< fa book >}} *Bayes Rules* chapter 3: ["The Beta-Binomial Bayesian Model"](https://www.bayesrulesbook.com/chapter-3.html)
+
+
+## Practice
+

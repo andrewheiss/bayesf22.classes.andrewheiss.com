@@ -1,0 +1,23 @@
+---
+title: Schedule
+toc: false
+---
+
+| Week | Day          | Topic                                                | *Rethinking* | *Rethinking* lecture | *Bayes Rules* |                 Details                  |
+|:---------:|-----------|-----------|:---------:|:---------:|:---------:|:---------:|
+|  1   | August 25    | **Introduction to Bayesian thinking + {targets}**    |      1       |          1           |       1       | [{{< fa book >}}](/schedule/01-week.qmd) |
+|  2   | September 1  | **Starting with Bayes rule, models, and regression** |     2--3     |          2           |     2--3      | [{{< fa book >}}](/schedule/02-week.qmd) |
+|  3   | September 8  | **Regression, priors, and conjugates**               |     4--5     |         3--4         |     4--5      | [{{< fa book >}}](/schedule/03-week.qmd) |
+|  4   | September 15 | **DAGs, confounders, and controls**                  |     5--6     |         5--6         |      ---      | [{{< fa book >}}](/schedule/04-week.qmd) |
+|  5   | September 22 | **Markov chains and posteriors**                     |      8       |          8           |     6--8      | [{{< fa book >}}](/schedule/05-week.qmd) |
+|  6   | September 29 | **Overfitting, evaluation, and diagnostics**         |      7       |          7           |     9--11     | [{{< fa book >}}](/schedule/06-week.qmd) |
+|  7   | October 6    | **Logistic and Poisson regression**                  |    10--11    |        9--10         |    12--13     | [{{< fa book >}}](/schedule/07-week.qmd) |
+|  8   | October 13   | **Ordered regression**                               |      12      |          11          |      ---      | [{{< fa book >}}](/schedule/08-week.qmd) |
+|  9   | October 20   | **Multilevel models I**                              |      13      |          12          |    15--17     | [{{< fa book >}}](/schedule/09-week.qmd) |
+|  10  | October 27   | **Multilevel models II**                             |     ---      |         ---          |      ---      | [{{< fa book >}}](/schedule/10-week.qmd) |
+|  11  | November 3   | **Multilevel models III**                            |      14      |        13--14        |    18--19     | [{{< fa book >}}](/schedule/11-week.qmd) |
+|  12  | November 10  | **Fancier applications**                             |      14      |        15--16        |      14       | [{{< fa book >}}](/schedule/12-week.qmd) |
+|  13  | November 17  | **Measurement error and missing data**               |      15      |        17--18        |      ---      | [{{< fa book >}}](/schedule/13-week.qmd) |
+|  14  | December 1   | **Beyond GLMs**                                      |    16--17    |        19--20        |      ---      | [{{< fa book >}}](/schedule/14-week.qmd) |
+
+: {tbl-colwidths="\[5,20,35,10,10,10,10\]"}

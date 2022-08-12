@@ -36,12 +36,34 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - schedule.qmd
+      - text: "Schedule"
+        file: schedule/index.qmd
       - resources.qmd
     right:
       - icon: github
         href: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
         aria-label: GitHub
+
+  sidebar:
+    - title: "Schedule"
+      style: "docked"
+      background: dark
+      contents:
+        - schedule/index.qmd
+        - schedule/01-week.qmd
+        - schedule/02-week.qmd
+        - schedule/03-week.qmd
+        - schedule/04-week.qmd
+        - schedule/05-week.qmd
+        - schedule/06-week.qmd
+        - schedule/07-week.qmd
+        - schedule/08-week.qmd
+        - schedule/09-week.qmd
+        - schedule/10-week.qmd
+        - schedule/11-week.qmd
+        - schedule/12-week.qmd
+        - schedule/13-week.qmd
+        - schedule/14-week.qmd
 
   page-footer:
     left: |

@@ -1,0 +1,17 @@
+---
+title: "Week 6"
+subtitle: "Overfitting, evaluation, and diagnostics"
+date: 2022-09-29
+---
+
+## Prepare
+
+- {{< fa book >}} *Statistical Rethinking* chapter 7: "Ulysses' Compass"
+- {{< fa video >}} Statistical Rethinking 2022, lecture 7: ["Overfitting"](https://www.youtube.com/watch?v=odGAAJDlgp8&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=7)
+- {{< fa book >}} *Bayes Rules* chapter 9: ["Simple Normal Regression"](https://www.bayesrulesbook.com/chapter-9.html)
+- {{< fa book >}} *Bayes Rules* chapter 10: ["Evaluating Regression Models"](https://www.bayesrulesbook.com/chapter-10.html)
+- {{< fa book >}} *Bayes Rules* chapter 11: ["Extending the Normal Regression Model"](https://www.bayesrulesbook.com/chapter-11.html)
+
+
+## Practice
+
