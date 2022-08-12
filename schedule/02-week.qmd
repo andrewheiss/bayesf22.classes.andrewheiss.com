@@ -1,6 +1,6 @@
 ---
 title: "Week 2"
-subtitle: "Starting with Bayes rule, models, and regression"
+subtitle: "Starting with Bayes' rule, models, and regression"
 date: 2022-09-01
 ---
 
