@@ -5,7 +5,7 @@
 
 [Andrew Heiss](https://www.andrewheiss.com/) and [Meng
 Ye](https://aysps.gsu.edu/phd-student/ye-meng/)  
-[PMAP 8911 • Fall 2022](https://evalf22.classes.andrewheiss.com/)  
+[PMAP 8911 • Fall 2022](https://bayesf22.classes.andrewheiss.com/)  
 Andrew Young School of Policy Studies • Georgia State University
 
 ------------------------------------------------------------------------
@@ -47,7 +47,7 @@ The pipeline does a few major tasks:
 -   **Run long-running Bayesian scripts**: Bayesian computation with
     MCMC sampling takes a long time. Instead of running our models in
     `.qmd` files that are re-run when rendering the website, we run them
-    in separate `.R` (located in [`R/`](R/)) files and show their
+    in separate `.R` files (located in [`R/`](R/)) and show their
     results in their corresponding `.qmd` files.
 
 -   **Build Quarto website**: This project is a [Quarto
