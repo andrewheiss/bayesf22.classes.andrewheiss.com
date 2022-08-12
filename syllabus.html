@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bayesian Statistics Readings</title>
+<title>Bayesian Statistics - Syllabus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -56,19 +56,20 @@ ul.task-list{list-style: none;}
   }
 }</script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Bayesian Statistics Readings">
+<meta property="og:title" content="Bayesian Statistics - Syllabus">
+<meta property="og:description" content="By the end of this readings course, you (and I!) will be literate in the language of Bayesian inference and will be able to correctly run Bayesian models using Stan and brms.">
 <meta property="og:image" content="https://bayesf22.classes.andrewheiss.com/files/social-image-f22.png">
 <meta property="og:site-name" content="Bayesian Statistics">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Bayesian Statistics Readings">
+<meta name="twitter:title" content="Bayesian Statistics - Syllabus">
+<meta name="twitter:description" content="By the end of this readings course, you (and I!) will be literate in the language of Bayesian inference and will be able to correctly run Bayesian models using Stan and brms.">
 <meta name="twitter:image" content="https://bayesf22.classes.andrewheiss.com/files/social-image-f22.png">
 <meta name="twitter:creator" content="@andrewheiss">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar nav-fixed fullcontent">
+<body class="nav-sidebar nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +84,7 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html">Syllabus</a>
+    <a class="nav-link active" href="./syllabus.html" aria-current="page">Syllabus</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./schedule/index.html">Schedule</a>
@@ -103,83 +104,58 @@ ul.task-list{list-style: none;}
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-objectives" id="toc-course-objectives" class="nav-link active" data-scroll-target="#course-objectives">Course objectives</a></li>
+  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course materials</a>
+  <ul class="collapse">
+  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
+  <li><a href="#articles-book-chapters-and-other-materials" id="toc-articles-book-chapters-and-other-materials" class="nav-link" data-scroll-target="#articles-book-chapters-and-other-materials">Articles, book chapters, and other materials</a></li>
+  </ul></li>
+  <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course structure</a></li>
+  <li><a href="#course-policies" id="toc-course-policies" class="nav-link" data-scroll-target="#course-policies">Course policies</a></li>
+  <li><a href="#assignments-and-grades" id="toc-assignments-and-grades" class="nav-link" data-scroll-target="#assignments-and-grades">Assignments and grades</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/edit/main/syllabus.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
 <!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
 
-
-
-<div class="cell" data-layout-align="center">
-<style type="text/css">
-.content-block {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-@media(max-width: 700px) {
-  #home-logo {
-    max-width: 150px;
-    margin: 0 auto;
-  }
-}
-
-@media(min-width: 700px) {
-  #home-logo {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-}
-
-@media(min-width: 900px) {
-  .content-block {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .content-block {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-}
-
-#home h1,
-#home h2 {
-  text-align: center;
-}
-</style>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Syllabus</h1>
 </div>
-<div id="home">
-<section id="bayesian-statistics" class="level1 content-block">
-<h1>Bayesian Statistics</h1>
-<div class="text-center text-secondary fs-4">
-<p>Independent readings course on Bayesian statistics</p>
-<p><a href="https://www.andrewheiss.com">Andrew Heiss</a> and <a href="https://aysps.gsu.edu/phd-student/ye-meng/">Meng Ye</a></p>
-<p>Fall 2022</p>
-</div>
-<div id="home-logo">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="files/img/text@3x.png" class="img-fluid figure-img" width="735"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<hr>
-<section id="main-readings" class="level2">
-<h2 data-anchor-id="main-readings">Main readings</h2>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="course-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="course-objectives">Course objectives</h2>
+<p>By the end of this readings course, you (and I!) will be literate in the language of Bayesian inference and will be able to correctly run Bayesian models using Stan and brms.</p>
+</section>
+<section id="course-materials" class="level2">
+<h2 class="anchored" data-anchor-id="course-materials">Course materials</h2>
+<section id="books" class="level3">
+<h3 class="anchored" data-anchor-id="books">Books</h3>
+<p>We’ll be working through two textbooks throughout the semester:</p>
 <div class="grid">
 <div class="g-col-6">
-<div class="text-center">
-<p><a href="https://xcelab.net/rm/statistical-rethinking/"><strong>Statistical Rethinking:<br>A Bayesian Course with Examples in R and Stan</strong></a></p>
-<p>Richard McElreath</p>
+<div class="text-left">
+<p>Richard McElreath, <a href="https://xcelab.net/rm/statistical-rethinking/"><strong>Statistical Rethinking:</strong> A Bayesian Course with Examples in R and Stan</a></p>
 </div>
 <p><a href="https://xcelab.net/rm/statistical-rethinking/"></a></p><a href="https://xcelab.net/rm/statistical-rethinking/">
 <div class="cell" data-layout-align="center">
@@ -194,9 +170,8 @@ ul.task-list{list-style: none;}
 </a><p><a href="https://xcelab.net/rm/statistical-rethinking/"></a></p>
 </div>
 <div class="g-col-6">
-<div class="text-center">
-<p><a href="https://www.bayesrulesbook.com/"><strong>Bayes Rules!<br>An Introduction to Applied Bayesian Modeling</strong></a></p>
-<p>Alicia A. Johnson, Miles Q. Ott, and Mine Dogucu</p>
+<div class="text-left">
+<p>Alicia A. Johnson, Miles Q. Ott, and Mine Dogucu, <a href="https://www.bayesrulesbook.com/"><strong>Bayes Rules!</strong> An Introduction to Applied Bayesian Modeling</a></p>
 </div>
 <p><a href="https://www.bayesrulesbook.com/"></a></p><a href="https://www.bayesrulesbook.com/">
 <div class="cell" data-layout-align="center">
@@ -211,46 +186,38 @@ ul.task-list{list-style: none;}
 </a><p><a href="https://www.bayesrulesbook.com/"></a></p>
 </div>
 </div>
-<hr>
-<p>&nbsp;</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="index_files/figure-html/bayesian-triptych-1.png" class="img-fluid figure-img" width="1536"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><span class="math display">\[
-\require{mathtools}
-\definecolor{bayesred}{RGB}{147, 30, 24}
-\definecolor{bayesblue}{RGB}{32, 35, 91}
-\definecolor{bayesorange}{RGB}{218, 120, 1}
-\definecolor{grey}{RGB}{128, 128, 128}
-{\color{bayesorange} P (\text{H} \mid \text{E})} = \frac
-{{\color{bayesred} P(\text{H})} \times
-{\color{bayesblue}P(\text{E} \mid \text{H})}}
-{\color{grey} {P(\text{E})}}
-\]</span></p>
-<p><span class="math display">\[
-{\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}} = \frac
-{{\color{grey} \overbracket[0.25pt]{\color{bayesred} P (\text{Unknown})}^{\text{Prior}}} \times
-{\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}}}
-{{\color{grey} \underbracket[0.25pt]{{\color{grey} P(\text{E})}}_{\text{Average likelihood}}}}
-\]</span></p>
-<p><span class="math display">\[
-{\color{grey} \overbracket[0.25pt]{\color{bayesred} P (\text{Unknown})}^{\text{Prior}}} \times
-{\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}} \propto
-{\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}}
-\]</span></p>
+<p><em>Bayes Rules!</em> is <a href="https://www.bayesrulesbook.com/">available online for free</a>. The book for <em>Statistical Rethinking</em> is not free (<a href="https://www.amazon.com/Statistical-Rethinking-Bayesian-Examples-Chapman/dp/036713991X/">$70 on Amazon</a>), but Richard McElreath has provided <a href="https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN">20 video lectures</a> with <a href="https://github.com/rmcelreath/stat_rethinking_2022">accompanying slides</a> and <a href="https://github.com/rmcelreath/stat_rethinking_2022/tree/main/homework">homework assignments and answer keys</a>.</p>
+<p>We’ll read all of <em>Bayes Rules!</em>, all of <em>Statistical Rethinking</em>, watch all of McElreath’s <em>Statistical Rethinking</em> lectures, and complete a bunch of the assignments and homework questions from both books.</p>
+</section>
+<section id="articles-book-chapters-and-other-materials" class="level3">
+<h3 class="anchored" data-anchor-id="articles-book-chapters-and-other-materials">Articles, book chapters, and other materials</h3>
+<p>There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the page for that week.</p>
 </section>
 </section>
-</div>
+<section id="course-structure" class="level2">
+<h2 class="anchored" data-anchor-id="course-structure">Course structure</h2>
+<p>We’ll meet weekly on Thursdays at 10:00 AM in my office (or online if necessary). We’ll (both!) do the readings and watch the videos and work through the homework problems beforehand and we’ll use the in-person time to discuss the materials, look at each other’s code, and review concepts.</p>
+<p>We’ll try to follow <a href="./schedule/index.html">the schedule</a>, but since this is my first time working through either of these books, I’m not 100% sure I’ve got their content aligned correctly or spaced our correctly, so we can be super flexible and make adjustments as needed.</p>
+</section>
+<section id="course-policies" class="level2">
+<h2 class="anchored" data-anchor-id="course-policies">Course policies</h2>
+<p><strong>Be nice. Be honest. Don’t cheat.</strong></p>
+<p>We will also follow <a href="https://codeofconduct.gsu.edu/">Georgia State’s Code of Conduct</a>.</p>
+</section>
+<section id="assignments-and-grades" class="level2">
+<h2 class="anchored" data-anchor-id="assignments-and-grades">Assignments and grades</h2>
+<p>I’ll give you a grade based on a pass/fail system. Do good work<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, get an A. There are no exams or quizzes and there’s no formal final project. (Though it’d be super neat if we thought of a nonprofit-related paper that we could write Bayesianly after this class!)</p>
 
 
+</section>
 
 
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1" role="doc-endnote"><p>i.e.&nbsp;do the readings, watch the videos, write the code<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

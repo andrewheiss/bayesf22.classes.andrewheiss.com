@@ -25,7 +25,7 @@
     "href": "schedule/01-week.html#practice",
     "title": "Week 1",
     "section": "Practice",
-    "text": "Practice"
+    "text": "Practice\n\n Do the {targets} walkthrough\n Try converting a past problem set or project to use {targets}"
   },
   {
     "objectID": "schedule/05-week.html",
@@ -214,7 +214,7 @@
     "href": "resources.html#books-well-read",
     "title": "Resources",
     "section": "Books we’ll read",
-    "text": "Books we’ll read\n\nStatistical Rethinking\n\nRichard McElreath, Statistical Rethinking: A Bayesian Course with Examples in R and Stan (McElreath 2020)\n\nOfficial links:\n\n Book page\n R package\n 2022 lecture videos\n\nTranslations:\n\n A. Solomon Kurz, Statistical Rethinking with brms, ggplot2, and the tidyverse: Second edition (Kurz 2021)\n Vincent Arel-Bundock, Statistical Rethinking 2 with Stan and R, (Arel-Bundock 2020)\n\n\n\nBayes Rules\n\nAlicia A. Johnson,, Miles Q. Ott, and Mine Dogucu. Bayes Rules! An Introduction to Applied Bayesian Modeling (Johnson, Ott, and Dogucu 2022)\n\nOfficial links:\n\n Book page (and the entire book itself)\n Project page\n Teaching resources\n R package and package documentation\n Alicia Johnson, “Bayes Rules! An Introduction to Bayesian Modeling with R with Alicia Johnson”, presentation for R-Ladies Philly on October 18, 2021"
+    "text": "Books we’ll read\n\nStatistical Rethinking\n\nRichard McElreath, Statistical Rethinking: A Bayesian Course with Examples in R and Stan (McElreath 2020)\n\nOfficial links:\n\n Book page\n R package\n 2022 lecture videos\n 2022 lecture slides and homework and answers\n\nTranslations:\n\n A. Solomon Kurz, Statistical Rethinking with brms, ggplot2, and the tidyverse: Second edition (Kurz 2021)\n Vincent Arel-Bundock, Statistical Rethinking 2 with Stan and R, (Arel-Bundock 2020)\n\n\n\nBayes Rules\n\nAlicia A. Johnson,, Miles Q. Ott, and Mine Dogucu. Bayes Rules! An Introduction to Applied Bayesian Modeling (Johnson, Ott, and Dogucu 2022)\n\nOfficial links:\n\n Book page (and the entire book itself)\n Project page\n Teaching resources\n R package and package documentation\n Alicia Johnson, “Bayes Rules! An Introduction to Bayesian Modeling with R with Alicia Johnson”, presentation for R-Ladies Philly on October 18, 2021"
   },
   {
     "objectID": "resources.html#articles-well-read",
@@ -229,6 +229,41 @@
     "title": "Resources",
     "section": "Other books",
     "text": "Other books\nWe don’t have time to cover these this semester, but these are all really great and useful resources!\n\n John K. Kruschke, Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan (Kruschke 2015)\n\n Website\n A. Solomon Kurz, Doing Bayesian Data Analysis in brms and the tidyverse, translation to brms (Kurz 2022)\n\n Ben Lambert, A Student’s Guide to Bayesian Statistics (Lambert 2018)\n Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin, Bayesian Data Analysis (Gelman et al. 2013)\n Allen B. Downey, Think Bayes 2 (Downey 2021)"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "By the end of this readings course, you (and I!) will be literate in the language of Bayesian inference and will be able to correctly run Bayesian models using Stan and brms."
+  },
+  {
+    "objectID": "syllabus.html#course-materials",
+    "href": "syllabus.html#course-materials",
+    "title": "Syllabus",
+    "section": "Course materials",
+    "text": "Course materials\n\nBooks\nWe’ll be working through two textbooks throughout the semester:\n\n\n\nRichard McElreath, Statistical Rethinking: A Bayesian Course with Examples in R and Stan\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlicia A. Johnson, Miles Q. Ott, and Mine Dogucu, Bayes Rules! An Introduction to Applied Bayesian Modeling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules! is available online for free. The book for Statistical Rethinking is not free ($70 on Amazon), but Richard McElreath has provided 20 video lectures with accompanying slides and homework assignments and answer keys.\nWe’ll read all of Bayes Rules!, all of Statistical Rethinking, watch all of McElreath’s Statistical Rethinking lectures, and complete a bunch of the assignments and homework questions from both books.\n\n\nArticles, book chapters, and other materials\nThere will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the page for that week."
+  },
+  {
+    "objectID": "syllabus.html#course-structure",
+    "href": "syllabus.html#course-structure",
+    "title": "Syllabus",
+    "section": "Course structure",
+    "text": "Course structure\nWe’ll meet weekly on Thursdays at 10:00 AM in my office (or online if necessary). We’ll (both!) do the readings and watch the videos and work through the homework problems beforehand and we’ll use the in-person time to discuss the materials, look at each other’s code, and review concepts.\nWe’ll try to follow the schedule, but since this is my first time working through either of these books, I’m not 100% sure I’ve got their content aligned correctly or spaced our correctly, so we can be super flexible and make adjustments as needed."
+  },
+  {
+    "objectID": "syllabus.html#course-policies",
+    "href": "syllabus.html#course-policies",
+    "title": "Syllabus",
+    "section": "Course policies",
+    "text": "Course policies\nBe nice. Be honest. Don’t cheat.\nWe will also follow Georgia State’s Code of Conduct."
+  },
+  {
+    "objectID": "syllabus.html#assignments-and-grades",
+    "href": "syllabus.html#assignments-and-grades",
+    "title": "Syllabus",
+    "section": "Assignments and grades",
+    "text": "Assignments and grades\nI’ll give you a grade based on a pass/fail system. Do good work1, get an A. There are no exams or quizzes and there’s no formal final project. (Though it’d be super neat if we thought of a nonprofit-related paper that we could write Bayesianly after this class!)"
   },
   {
     "objectID": "index.html#main-readings",
