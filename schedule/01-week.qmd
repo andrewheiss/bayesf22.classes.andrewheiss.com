@@ -13,3 +13,5 @@ date: 2022-08-25
 
 ## Practice
 
+- {{< fa laptop-code >}} Do the [{targets} walkthrough](https://books.ropensci.org/targets/walkthrough.html)
+- {{< fa laptop-code >}} Try converting a past problem set or project to use {targets}
