@@ -30,16 +30,16 @@ website:
   repo-url: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
   repo-actions: [edit, issue]
 
+  page-navigation: true
+
   navbar:
     pinned: true
     background: primary
-    left:
-      - href: index.qmd
-        text: Home
+    right:
+      - syllabus.qmd
       - text: "Schedule"
         file: schedule/index.qmd
       - resources.qmd
-    right:
       - icon: github
         href: "https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com"
         aria-label: GitHub
