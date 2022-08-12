@@ -26,6 +26,11 @@ list(
   ## Create the three panel Bayesian plot ----
   tar_target(bayesian_triptych, build_triptych_panels()),
 
+  ## Build the README ----
+  tar_target(workflow_graph, tar_mermaid(targets_only = TRUE, outdated = FALSE,
+                                         legend = FALSE, color = FALSE)),
+  tar_quarto(readme, here_rel("README.qmd")),
+
   ## Build site ----
   tar_quarto(site, path = ".")
 )
