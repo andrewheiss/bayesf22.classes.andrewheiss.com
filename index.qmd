@@ -74,7 +74,7 @@ withr::with_dir(here::here(), {
 
 ::: {.text-center .text-secondary .fs-4}
 
-Independent readings course on Bayesian statistics
+Independent readings course on Bayesian statistics with R and Stan
 
 [Andrew Heiss](https://www.andrewheiss.com) and [Meng Ye](https://aysps.gsu.edu/phd-student/ye-meng/)
 
