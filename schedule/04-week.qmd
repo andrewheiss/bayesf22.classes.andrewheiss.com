@@ -1,7 +1,7 @@
 ---
 title: "Week 4"
 subtitle: "DAGs, confounders, and controls"
-date: 2022-09-15
+date: 2022-09-22
 ---
 
 ## Prepare

@@ -1,7 +1,7 @@
 ---
 title: "Week 14"
 subtitle: "Beyond GLMs"
-date: 2022-12-01
+date: 2022-12-08
 ---
 
 ## Prepare

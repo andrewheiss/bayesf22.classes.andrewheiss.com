@@ -14,11 +14,11 @@ execute:
 
 bibliography: files/bib/references.bib
 csl: files/bib/chicago-author-date.csl
+description-meta: "Independent readings course on Bayesian statistics at the Andrew Young School of Policy Studies at Georgia State University"
 
 website:
   title: "Bayesian Statistics"
   #site-url: "https://bayesf22.classes.andrewheiss.com/"
-  description-meta: "Independent readings course on Bayesian statistics at the Andrew Young School of Policy Studies at Georgia State University"
 
   favicon: "/files/favicon.png"
 
