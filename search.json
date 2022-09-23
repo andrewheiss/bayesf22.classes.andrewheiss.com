@@ -95,7 +95,7 @@
     "href": "schedule/05-week.html",
     "title": "Week 5",
     "section": "",
-    "text": "Statistical Rethinking chapter 8: “Markov Chain Monte Carlo”\n Statistical Rethinking 2022, lecture 8: “Markov Chain Monte Carlo”\n Bayes Rules chapter 6: “Approximating the Posterior”\n Bayes Rules chapter 7: “MCMC under the Hood”\n Bayes Rules chapter 8: “Posterior Inference & Prediction”"
+    "text": "Statistical Rethinking chapter 9: “Markov Chain Monte Carlo”\n Statistical Rethinking 2022, lecture 8: “Markov Chain Monte Carlo”\n Bayes Rules chapter 6: “Approximating the Posterior”\n Bayes Rules chapter 7: “MCMC under the Hood”\n Bayes Rules chapter 8: “Posterior Inference & Prediction”"
   },
   {
     "objectID": "schedule/05-week.html#practice",
@@ -235,7 +235,7 @@
     "href": "schedule/index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nDay\nTopic\nRethinking\nRethinking lecture\nBayes Rules\nDetails\n\n\n\n\n1\nAugust 25\nIntroduction to Bayesian thinking + {targets}\n1\n1\n1\n\n\n\n2\nSeptember 1\nStarting with Bayes rule, models, and regression\n2–3\n2\n2–3\n\n\n\n3\nSeptember 8\nRegression, priors, and conjugates\n4–5\n3–4\n4–5\n\n\n\n—\nSeptember 15\n(off)\n—\n—\n—\n—\n\n\n4\nSeptember 22\nDAGs, confounders, and controls\n5–6\n5–6\n—\n\n\n\n5\nSeptember 29\nMarkov chains and posteriors\n8\n8\n6–8\n\n\n\n6\nOctober 6\nOverfitting, evaluation, and diagnostics\n7\n7\n9–11\n\n\n\n7\nOctober 13\nLogistic and Poisson regression\n10–11\n9–10\n12–13\n\n\n\n8\nOctober 20\nOrdered regression\n12\n11\n—\n\n\n\n9\nOctober 27\nMultilevel models I\n13\n12\n15–17\n\n\n\n10\nNovember 3\nMultilevel models II\n—\n—\n—\n\n\n\n11\nNovember 10\nMultilevel models III\n14\n13–14\n18–19\n\n\n\n12\nNovember 17\nFancier applications\n14\n15–16\n14\n\n\n\n13\nDecember 1\nMeasurement error and missing data\n15\n17–18\n—\n\n\n\n14\nDecember 8\nBeyond GLMs\n16–17\n19–20\n—"
+    "text": "Week\nDay\nTopic\nRethinking\nRethinking lecture\nBayes Rules\nDetails\n\n\n\n\n1\nAugust 25\nIntroduction to Bayesian thinking + {targets}\n1\n1\n1\n\n\n\n2\nSeptember 1\nStarting with Bayes rule, models, and regression\n2–3\n2\n2–3\n\n\n\n3\nSeptember 8\nRegression, priors, and conjugates\n4–5\n3–4\n4–5\n\n\n\n—\nSeptember 15\n(off)\n—\n—\n—\n—\n\n\n4\nSeptember 22\nDAGs, confounders, and controls\n5–6\n5–6\n—\n\n\n\n5\nSeptember 29\nMarkov chains and posteriors\n9\n8\n6–8\n\n\n\n6\nOctober 6\nOverfitting, evaluation, and diagnostics\n7\n7\n9–11\n\n\n\n7\nOctober 13\nLogistic and Poisson regression\n10–11\n9–10\n12–13\n\n\n\n8\nOctober 20\nOrdered regression\n12\n11\n—\n\n\n\n9\nOctober 27\nMultilevel models I\n13\n12\n15–17\n\n\n\n10\nNovember 3\nMultilevel models II\n—\n—\n—\n\n\n\n11\nNovember 10\nMultilevel models III\n14\n13–14\n18–19\n\n\n\n12\nNovember 17\nFancier applications\n14\n15–16\n14\n\n\n\n13\nDecember 1\nMeasurement error and missing data\n15\n17–18\n—\n\n\n\n14\nDecember 8\nBeyond GLMs\n16–17\n19–20\n—"
   },
   {
     "objectID": "syllabus.html",

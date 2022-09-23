@@ -1,1 +1,1 @@
-Sitemap: https://github.com/andrewheiss/bayesf22.classes.andrewheiss.com/sitemap.xml
+Sitemap: https://andrewheiss.github.io/bayesf22.classes.andrewheiss.com/sitemap.xml
