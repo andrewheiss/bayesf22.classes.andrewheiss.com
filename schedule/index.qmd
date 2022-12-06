@@ -8,9 +8,9 @@ toc: false
 |  1   | August 25    | **Introduction to Bayesian thinking + {targets}**    |      1       |          1           |       1       | [{{< fa book >}}](/schedule/01-week.qmd) |
 |  2   | September 1  | **Starting with Bayes rule, models, and regression** |     2--3     |          2           |     2--3      | [{{< fa book >}}](/schedule/02-week.qmd) |
 |  3   | September 8  | **Regression, priors, and conjugates**               |     4--5     |         3--4         |     4--5      | [{{< fa book >}}](/schedule/03-week.qmd) |
-|  —   | September 15 | *(off)*                                             |     ---      |         ---          |     ---       |                   ---                    |
+|  —   | September 15 | *(off)*                                              |     ---      |         ---          |     ---       |                   ---                    |
 |  4   | September 22 | **DAGs, confounders, and controls**                  |     5--6     |         5--6         |      ---      | [{{< fa book >}}](/schedule/04-week.qmd) |
-|  5   | September 29 | **Markov chains and posteriors**                     |      8       |          8           |     6--8      | [{{< fa book >}}](/schedule/05-week.qmd) |
+|  5   | September 29 | **Markov chains and posteriors**                     |      9       |          8           |     6--8      | [{{< fa book >}}](/schedule/05-week.qmd) |
 |  6   | October 6    | **Overfitting, evaluation, and diagnostics**         |      7       |          7           |     9--11     | [{{< fa book >}}](/schedule/06-week.qmd) |
 |  7   | October 13   | **Logistic and Poisson regression**                  |    10--11    |        9--10         |    12--13     | [{{< fa book >}}](/schedule/07-week.qmd) |
 |  8   | October 20   | **Ordered regression**                               |      12      |          11          |      ---      | [{{< fa book >}}](/schedule/08-week.qmd) |
