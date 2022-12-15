@@ -21,6 +21,7 @@ Official links:
 Translations:
 
 - {{< fa laptop-code >}} A. Solomon Kurz, [*Statistical Rethinking with brms, ggplot2, and the tidyverse: Second edition*](https://bookdown.org/content/4857/) [@Kurz:2021]
+- {{< fa laptop-code >}} Jake Thompson, [*Statistical Rethinking: Solutions (2nd edition)](https://sr2-solutions.wjakethompson.com/index.html)
 - {{< fa laptop-code >}} Vincent Arel-Bundock, [*Statistical Rethinking 2 with Stan and R*](https://vincentarelbundock.github.io/rethinking2/), [@Arel-Bundock:2020]
 
 
@@ -41,6 +42,7 @@ Official links:
 
 - {{< fa file-lines >}} Kruschke, John K., and Torrin M. Liddell. “The Bayesian New Statistics: Hypothesis Testing, Estimation, Meta-Analysis, and Power Analysis from a Bayesian Perspective" [@KruschkeLiddell:2018]
 - {{< fa file-lines >}} Kruschke, John K. “Bayesian Estimation Supersedes the *t* Test.” [@Kruschke:2013]
+- {{< fa up-right-from-square >}} Michael Freeman, [Visual explanation of hierarchical modeling](http://mfviz.com/hierarchical-models/)
 - More to come!
 
 

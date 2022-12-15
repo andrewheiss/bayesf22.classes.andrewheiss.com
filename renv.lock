@@ -1507,7 +1507,7 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.0.4",
+      "Version": "1.0.6",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "6539dd8c651e67e3b55b5ffea106362b",
