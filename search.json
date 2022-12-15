@@ -18,14 +18,14 @@
     "href": "resources.html#books-well-read",
     "title": "Resources",
     "section": "Books we’ll read",
-    "text": "Books we’ll read\n\nStatistical Rethinking\n\nRichard McElreath, Statistical Rethinking: A Bayesian Course with Examples in R and Stan (McElreath 2020)\n\nOfficial links:\n\n Book page\n R package\n 2022 lecture videos\n 2022 lecture slides and homework and answers\n\nTranslations:\n\n A. Solomon Kurz, Statistical Rethinking with brms, ggplot2, and the tidyverse: Second edition (Kurz 2021)\n Vincent Arel-Bundock, Statistical Rethinking 2 with Stan and R, (Arel-Bundock 2020)\n\n\n\nBayes Rules\n\nAlicia A. Johnson,, Miles Q. Ott, and Mine Dogucu. Bayes Rules! An Introduction to Applied Bayesian Modeling (Johnson, Ott, and Dogucu 2022)\n\nOfficial links:\n\n Book page (and the entire book itself)\n Project page\n Teaching resources\n R package and package documentation\n Alicia Johnson, “Bayes Rules! An Introduction to Bayesian Modeling with R with Alicia Johnson”, presentation for R-Ladies Philly on October 18, 2021"
+    "text": "Books we’ll read\n\nStatistical Rethinking\n\nRichard McElreath, Statistical Rethinking: A Bayesian Course with Examples in R and Stan (McElreath 2020)\n\nOfficial links:\n\n Book page\n R package\n 2022 lecture videos\n 2022 lecture slides and homework and answers\n\nTranslations:\n\n A. Solomon Kurz, Statistical Rethinking with brms, ggplot2, and the tidyverse: Second edition (Kurz 2021)\n Jake Thompson, *Statistical Rethinking: Solutions (2nd edition)\n Vincent Arel-Bundock, Statistical Rethinking 2 with Stan and R, (Arel-Bundock 2020)\n\n\n\nBayes Rules\n\nAlicia A. Johnson,, Miles Q. Ott, and Mine Dogucu. Bayes Rules! An Introduction to Applied Bayesian Modeling (Johnson, Ott, and Dogucu 2022)\n\nOfficial links:\n\n Book page (and the entire book itself)\n Project page\n Teaching resources\n R package and package documentation\n Alicia Johnson, “Bayes Rules! An Introduction to Bayesian Modeling with R with Alicia Johnson”, presentation for R-Ladies Philly on October 18, 2021"
   },
   {
     "objectID": "resources.html#articles-well-read",
     "href": "resources.html#articles-well-read",
     "title": "Resources",
     "section": "Articles we’ll read",
-    "text": "Articles we’ll read\n\n Kruschke, John K., and Torrin M. Liddell. “The Bayesian New Statistics: Hypothesis Testing, Estimation, Meta-Analysis, and Power Analysis from a Bayesian Perspective” (Kruschke and Liddell 2018)\n Kruschke, John K. “Bayesian Estimation Supersedes the t Test.” (Kruschke 2013)\nMore to come!"
+    "text": "Articles we’ll read\n\n Kruschke, John K., and Torrin M. Liddell. “The Bayesian New Statistics: Hypothesis Testing, Estimation, Meta-Analysis, and Power Analysis from a Bayesian Perspective” (Kruschke and Liddell 2018)\n Kruschke, John K. “Bayesian Estimation Supersedes the t Test.” (Kruschke 2013)\n Michael Freeman, Visual explanation of hierarchical modeling\nMore to come!"
   },
   {
     "objectID": "resources.html#other-books",
